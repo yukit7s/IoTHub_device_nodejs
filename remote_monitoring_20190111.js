@@ -8,7 +8,7 @@ var ConnectionString = require('azure-iot-device').ConnectionString;
 var Message = require('azure-iot-device').Message;
 var async = require('async');
 
-var connectionString = 'HostName=azureiotdemo20181213be3ee.azure-devices.net;DeviceId=physical-chiller-ishida;SharedAccessKey=S2aYzt1SNnvV6JYEiKrLgE6ZkZRsUvHUWPo/Dw1wSPc=';
+var connectionString = '';
 var deviceId = ConnectionString.parse(connectionString).DeviceId;
 
 var temperature = 50;
